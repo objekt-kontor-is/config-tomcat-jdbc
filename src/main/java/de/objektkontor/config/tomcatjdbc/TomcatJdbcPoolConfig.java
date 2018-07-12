@@ -5,10 +5,11 @@ import java.time.Duration;
 
 import org.apache.tomcat.jdbc.pool.DataSource;
 
+import de.objektkontor.config.ObservableConfig;
 import de.objektkontor.config.annotation.ConfigParameter;
 import de.objektkontor.config.common.DBConfig;
 
-public class TomcatJdbcPoolConfig {
+public class TomcatJdbcPoolConfig extends ObservableConfig {
 
 	public enum TransactionIsolation {
 

@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>config-tomcat-jdbc</artifactId>
-	<version>1.2.1</version>
+	<version>1.2.2</version>
 	<packaging>bundle</packaging>
 
 	<name>Configuration Framework extention for tomcat jdbc pool</name>
