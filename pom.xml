@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>config-tomcat-jdbc</artifactId>
-	<version>1.2.2</version>
+	<version>1.4.0</version>
 	<packaging>bundle</packaging>
 
 	<name>Configuration Framework extention for tomcat jdbc pool</name>
@@ -38,11 +38,11 @@
 	<parent>
 		<groupId>de.objekt-kontor</groupId>
 		<artifactId>master-pom</artifactId>
-		<version>4</version>
+		<version>5</version>
 	</parent>
 
 	<properties>
-		<tomcat-api.version>8.5.31</tomcat-api.version>
+		<tomcat-api.version>10.1.30</tomcat-api.version>
 	</properties>
 
 	<dependencies>
